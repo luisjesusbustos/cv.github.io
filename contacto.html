@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1aaf3f4f5.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+          
+          <a href="index.html" class="logo nav-link"><img class="logo" src="jesus_azul_wallpaper.jpg" alt="logo de página"></a>
+          <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a href="index.html" class="nav-menu-link nav-link">Inicio</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="sobre_mi.html" class="nav-menu-link nav-link">Sobre mí</a>
+            </li>
+           
+            <li class="nav-menu-item">
+              <a href="contacto.html" class="nav-menu-link nav-link"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+  <main class="contacto">
+     <form action="https://formsubmit.co/5de3d741be87d5d255256d9da407cd24 " method="POST">
+        <h2 class="contacto-cont">Contacto</h2>
+        <input type="text" name="nombre" placeholder="ingrese su nombre" required>
+        <input type="text" name="correo" placeholder="ingrese su correo" required>
+        <input type="text" name="teléfono" placeholder="ingrese su teléfono" required>
+        <textarea name="mensaje" placeholder="ingrese su mensaje" required></textarea>
+        <!--   <input type="button" value="ENVIAR" id="boton"> -->
+        <button type="submit" id="boton">Enviar</button>
+     </form>
+
+
+  </main>
+  
+ 
+  
+  <footer><b>Trabajo práctico para Argentina Programa 4.0</b></footer>     
+
+      <script src="funciones.js"></script>
+</body>
+</html>
