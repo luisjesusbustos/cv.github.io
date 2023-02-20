@@ -349,7 +349,7 @@ img {
       article {
         text-align: justify;
         font-size: 20px;
-        margin-right: 60px;
+        margin-right: 10px;
         font-family: 'Times New Roman', Times, serif;
         line-height: 30px;
       }
@@ -360,6 +360,16 @@ img {
         font-size: 30px;
         font-family:Georgia, 'Times New Roman', Times, serif  ;
       }
+/*contacto*/
+form {
+  width: 350px;
+  margin: auto;
+  background: rgba(0, 10, 10, 0.6);
+  padding: 10px 20px;
+  box-sizing: border-box; 
+  border-radius: 20px;
+  margin-top: 30px;
+}  
 
 
 }
