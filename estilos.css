@@ -317,3 +317,49 @@ img {
 
 }
 
+
+@media (max-width:576px) {
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+       /*sobre mi*/
+       .sobre_mi {
+        margin-top: 10px;
+        margin-left:10px;
+        display: block;
+     
+      }
+    
+      .img_familia {
+        text-align: center;
+      }
+    
+      .familia {
+        height: 200px;
+        width: 350px;
+       
+      }
+    
+      article {
+        text-align: justify;
+        font-size: 20px;
+        margin-right: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 30px;
+      }
+    
+      article h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif  ;
+      }
+
+
+}
